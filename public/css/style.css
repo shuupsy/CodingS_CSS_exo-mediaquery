@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url('../img/banner-home.png');
+    background-repeat: no-repeat;
+    background-attachment: cover;
+}
