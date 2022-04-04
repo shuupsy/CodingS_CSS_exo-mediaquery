@@ -1,10 +1,46 @@
 body {
     margin: 0;
     padding: 0;
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    'head'
+    'bg'
+    'about'
+    'pack'
+    'outils'
+    'foot';
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 300px 200px 1fr 1fr 15%;
+}
+
+header {
+    grid-area: head;
+    background-color: #1A1A1D;
+    color: white;
 }
 
 .bg {
+    grid-area: bg;
     background-image: url('../img/banner-home.png');
     background-repeat: no-repeat;
     background-attachment: cover;
+}
+
+.apropos {
+    grid-area: about;
+}
+
+.pack {
+    grid-area : pack;
+    background-color: #334D5C;
+}
+
+.outils {
+    grid-area: outils;
+}
+
+footer {
+    grid-area: foot;
+    background-color: #393A3B;
 }
