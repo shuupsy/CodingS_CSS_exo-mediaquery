@@ -24,19 +24,28 @@ li {
 header {
     background-color: #1A1A1D;
     color: white;
-    height: 100px;
+    display: flex;
 }
 
-.logoPage {
-    justify-content: left;
+header div {
+    height: 150px;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
 }
 
 .icones ul {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    justify-content: center ;
+    text-align: center;
+    padding:20px;
 }
 
+/*  */
 .bg {
     background-image: url('../img/banner-home.png');
     width: 100%;
