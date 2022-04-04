@@ -1,46 +1,80 @@
+/* CSS général + optimisation lignes */
 body {
     margin: 0;
     padding: 0;
-    display: grid;
     width: 100%;
-    grid-template-areas: 
-    'head'
-    'bg'
-    'about'
-    'pack'
-    'outils'
-    'foot';
-    grid-template-columns: 100%;
-    grid-template-rows: 100px 300px 200px 1fr 1fr 15%;
 }
 
-header {
-    grid-area: head;
-    background-color: #1A1A1D;
+a {
+    text-decoration: none;
     color: white;
 }
 
+li {
+    list-style: none;
+}
+
+/* Début header */
+header {
+    background-color: #1A1A1D;
+    color: white;
+    height: 100px;
+}
+
+.logoPage {
+    justify-content: left;
+    align-items: center;
+}
+
+.icones ul {
+    display: flex;
+    justify-content: center ;
+}
+
 .bg {
-    grid-area: bg;
     background-image: url('../img/banner-home.png');
+    width: 100%;
     background-repeat: no-repeat;
     background-attachment: cover;
 }
 
 .apropos {
-    grid-area: about;
+    background-color: yellow;
 }
 
 .pack {
-    grid-area : pack;
     background-color: #334D5C;
 }
 
 .outils {
-    grid-area: outils;
+    background-color: pink;
 }
 
+
+/* Début footer */
 footer {
-    grid-area: foot;
     background-color: #393A3B;
+    color: white
+}
+.container {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto 1fr;
+}
+
+.ftr-packs, .ftr-outils, .ftr-social {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width : 50px;
+}
+
+#conditions {
+   display: flex;
+   justify-content: end;
+   margin-right: 15px;
 }
