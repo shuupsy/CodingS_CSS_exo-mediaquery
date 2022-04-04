@@ -1,8 +1,14 @@
 /* CSS général + optimisation lignes */
+@font-face {
+    font-family: "Ubuntu";
+    src: url('../fontfamily/Ubuntu-Light.ttf');
+}
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: Ubuntu;
 }
 
 a {
