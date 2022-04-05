@@ -96,6 +96,10 @@ h2 {
     margin-left : 30%;
 }
 
+#titrepack img {
+    width: 20%; 
+}
+
 .pack ul {
     display: flex;
     padding: 0;
@@ -103,6 +107,11 @@ h2 {
 }
 
 /* Section outils */
+.containerO {
+    color: #393A3B;
+    padding-top: 40px;
+}
+
 .outils {
     color: #393A3B;
 }
@@ -112,6 +121,10 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-left : 30%;
+}
+
+#titreoutils img {
+    width: 20%;
 }
 
 .outils ul {
