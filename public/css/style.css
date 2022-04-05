@@ -99,6 +99,7 @@ h2 {
 .pack ul {
     display: flex;
     padding: 0;
+    text-align: center;
 }
 
 /* Section outils */
@@ -116,6 +117,7 @@ h2 {
 .outils ul {
     display: flex;
     padding: 0;
+    text-align: center;
 }
 
 /* Début footer */
