@@ -75,16 +75,48 @@ header div {
     flex: 2;
     margin: 5%;
 }
+
 /* Section pack */
 
 .pack {
     background-color: #334D5C;
+    color: white;
+    padding: 30px 0;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#titrepack {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left : 30%;
+}
+
+.pack ul {
+    display: flex;
+    padding: 0;
+}
+
+/* Section outils */
 .outils {
-    background-color: pink;
+    color: #393A3B;
 }
 
+#titreoutils {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left : 30%;
+}
+
+.outils ul {
+    display: flex;
+    padding: 0;
+}
 
 /* Début footer */
 footer {
