@@ -53,14 +53,29 @@ header div {
 /* Section background image */
 .bg {
     background-image: url('../img/banner-home.png');
-    height: 50vw;
+    height: 46vw;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
+/* Section à propos */
 .apropos {
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#logo {
+    flex: 1;
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+
+#about {
+    flex: 2;
+    margin: 5%;
+}
+/* Section pack */
 
 .pack {
     background-color: #334D5C;
