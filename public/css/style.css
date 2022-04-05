@@ -8,12 +8,13 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
 }
 
 li {
     list-style: none;
 }
+
 
 /* Début header */
 header {
@@ -116,7 +117,7 @@ h2 {
 
 .titreoutils {
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left : 30%;
 }
